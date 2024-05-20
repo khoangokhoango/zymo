@@ -1,0 +1,71 @@
+h1, .zymo-heading--1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+@media screen and (min-width: 768px){
+  h1, .zymo-heading--1 {
+    font-size: 4.8rem;
+  }
+}
+
+h2, .zymo-heading--2 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 768px){
+  h2, .zymo-heading--2 {
+    font-size: 3.6rem;
+  }
+}
+
+h3, .zymo-heading--3 {
+  font-size: 2.4rem;
+  line-height: normal;
+}
+
+@media screen and (min-width: 768px){
+  h3, .zymo-heading--3 {
+    font-size: 3rem;
+  }
+}
+
+h4, .zymo-heading--4 {
+  font-size: 2rem;
+  line-height: normal;
+}
+
+@media screen and (min-width: 768px){
+  h4, .zymo-heading--4 {
+    font-size: 2.4rem;
+  }
+}
+
+h5, .zymo-heading--5 {
+  font-size: 1.8rem;
+  line-height: normal;
+}
+
+@media screen and (min-width: 768px){
+  h5, .zymo-heading--5 {
+    font-size: 2rem;
+  }
+}
+
+h6, .zymo-heading--6 {
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+@media screen and (min-width: 768px){
+  h6, .zymo-heading--6 {
+    font-size: 1.8rem;
+  }
+}
+
+.zymo-body-text {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
