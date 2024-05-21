@@ -1,0 +1,45 @@
+.zymo-button,
+.zymo-button--secondary {
+  font-family: var(--font-heading);
+  display: block;
+  padding: 1.6rem 3.2rem;
+  font-size: 2rem;
+  font-weight: var(--font-bold);
+  text-align: center;
+  border-radius: 4rem;
+  border-width: 0.1rem;
+  border-style: solid;
+  cursor: pointer;
+  transition: all 0.3s, color 0.3s;
+}
+
+.zymo-button {
+  border-color: var(--color-green);
+  background-color: var(--color-green);
+  color: var(--color-white);
+}
+
+.zymo-button:hover,
+.zymo-button:focus {
+  background-color: var(--color-white);
+  color: var(--color-green);
+}
+
+@media screen and (min-width: 750px) {
+  .zymo-button {
+    font-size: 2.4rem;
+  }
+}
+
+.zymo-button--secondary {
+  border-color: var(--color-green);
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.zymo-button--secondary:hover,
+.zymo-button--secondary:focus {
+  border-color: var(--color-green);
+  background-color: var(--color-green);
+  color: var(--color-white);
+}

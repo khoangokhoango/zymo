@@ -1,6 +1,16 @@
-@import "./variables.css";
-@import "./headings.css";
-@import "./global.css";
-@import "./hero-banner.css";
-@import "./cards.css";
-@import "./inquery-form.css";
+/* settings */
+@import "./settings/variables.css";
+
+/* commons */
+@import "./commons/headings.css";
+@import "./commons/buttons.css";
+@import "./commons/global.css";
+
+/* snippets */
+@import "./snippets/card.css";
+
+/* sections */
+@import "./sections/hero-banner.css";
+@import "./sections/banner-text.css";
+@import "./sections/cards.css";
+@import "./sections/inquery-form.css";

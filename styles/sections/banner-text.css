@@ -1,0 +1,57 @@
+.zymo-banner-text {
+  padding: 10rem 0;
+  background: var(--color-light-grey);
+}
+
+/* .zymo-banner-text__inner {
+  display: flex;
+  align-items: center;
+} */
+
+@media screen and (min-width: 992px) {
+  .zymo-banner-text__inner {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.zymo-banner-text__left-section {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 992px) {
+  .zymo-banner-text__left-section {
+    width: 50%;
+    text-align: right;
+    padding-right: 10rem;
+    margin-bottom: 0;
+  }
+}
+
+.zymo-banner-text__heading {
+  margin-bottom: 1.6rem;
+  font-weight: var(--font-bold);
+}
+
+@media screen and (min-width: 992px) {
+  .zymo-banner-text__heading {
+    margin-bottom: 2.4rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .zymo-banner-text__right-section {
+    width: 50%;
+  }
+}
+
+.zymo-banner-text__right-section p+p {
+  margin-top: 0.8rem;
+}
+
+@media screen and (min-width: 992px) {
+  .zymo-banner-text__right-section p+p {
+    margin-top: 1.6rem;
+  }
+}

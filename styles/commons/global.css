@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-body);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   overflow-y: auto;
@@ -47,7 +47,7 @@ a {
   padding: 0 5rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 750px) {
   .page-width {
     padding: 0 2rem;
   }

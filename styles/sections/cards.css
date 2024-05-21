@@ -1,0 +1,17 @@
+.zymo-cards {
+  padding: 8rem 0;
+  background: var(--color-light-grey-2);
+}
+
+.zymo-cards__list {
+  display: flex;
+}
+
+.zymo-cards__item {
+  width: 25%;
+}
+
+.zymo-cards__item:not(:last-child) {
+  margin-right: 2rem;
+}
+

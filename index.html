@@ -8,10 +8,13 @@
   <title>Zymo Take-Home Assignment</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles/index.css" />
+
+  <script type="module" src="/scripts/preload.js"></script>
 </head>
 
 <body>
-
+  <!-- header if needed -->
+  <!-- <header></header> -->
   <main>
     <!-- Hero banner -->
     <section class="zymo-hero-banner">
@@ -27,36 +30,67 @@
           <h1 class="zymo-hero-banner__heading">Header text</h1>
           <h4 class="zymo-hero-banner__subheading">Lorem ipsum</h4>
           <div class="zymo-hero-banner__icons">
-            <ul>
-              <li>
+            <ul class="zymo-hero-banner__icon-list">
+              <li class="zymo-hero-banner__icon-item">
                 <img src="bullseye_icon.jpg" alt="" />
-                <span>Lorem ipsum</span>
+                <p class="zymo-hero-banner__icon-legend">Lorem ipsum</p>
               </li>
-              <li>
+              <li class="zymo-hero-banner__icon-item">
                 <img src="checkmark_icon.jpg" alt="" />
-                <span>Lorem ipsum</span>
+                <p class="zymo-hero-banner__icon-legend">Lorem ipsum</p>
               </li>
-              <li>
+              <li class="zymo-hero-banner__icon-item">
                 <img src="graphs_icon.jpg" alt="" />
-                <span>Lorem ipsum</span>
+                <p class="zymo-hero-banner__icon-legend">Lorem ipsum</p>
               </li>
             </ul>
           </div>
         </div>
 
-        <a href="#ContactForm" class="zymo-hero-banner__cta">Inquery Now</a>
+        <div class="page-width zymo-hero-banner__cta-wrapper">
+          <a href="#ContactForm" class="zymo-button zymo-hero-banner__cta">Inquery Now</a>
+        </div>
       </div>
       </div>
     </section>
 
     <!-- Banner text -->
-    <section>
-
+    <section class="zymo-banner-text">
+      <div class="page-width zymo-banner-text__inner">
+        <div class="zymo-banner-text__left-section">
+          <h2 class="zymo-banner-text__heading">Header Text</h2>
+          <h4 class="zymo-banner-text__subheading">Lorem ipsum</h4>
+        </div>
+        <div class="zymo-banner-text__right-section">
+          <p class="zymo-body-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Et ultrices neque ornare aenean euismod elementum nisi. Aliquet risus feugiat in ante
+            metus dictum. Vestibulum sed arcu non odio euismod. Ornare quam viverra orci sagittis eu. Nisi vitae
+            suscipit tellus mauris a diam maecenas sed enim. Amet facilisis magna etiam tempor orci eu lobortis
+            elementum nibh. Amet luctus venenatis lectus magna fringilla urna porttitor. Massa ultricies mi quis
+            hendrerit. Duis convallis convallis tellus id interdum. Diam maecenas ultricies mi eget mauris pharetra et
+            ultrices.
+          </p>
+          <p class="zymo-body-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Et ultrices neque ornare aenean euismod elementum nisi. Aliquet risus feugiat in ante
+            metus dictum. Vestibulum sed arcu non odio euismod. Ornare quam viverra orci sagittis eu. Nisi vitae
+            suscipit tellus mauris a diam maecenas sed enim. Amet facilisis magna etiam tempor orci eu lobortis
+            elementum nibh. Amet luctus venenatis lectus magna fringilla urna porttitor. Massa ultricies mi quis
+            hendrerit. Duis convallis convallis tellus id interdum. Diam maecenas ultricies mi eget mauris pharetra et
+            ultrices.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Cards -->
-    <section>
-
+    <section class="zymo-cards">
+      <div class="page-width zymo-cards__inner">
+        <zymo-cards>
+          <ul class="zymo-cards__list"></ul>
+        </zymo-cards>
+      </div>
     </section>
 
     <!-- Form -->
@@ -66,7 +100,10 @@
 
   </main>
 
-  <script type="module" src="/main.js" defer></script>
+  <!-- footer if needed -->
+  <!-- <footer></footer> -->
+
+  <script type="module" src="/scripts/index.js" defer></script>
 </body>
 
 </html>
