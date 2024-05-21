@@ -1,0 +1,77 @@
+@media screen and (min-width: 750px) {
+  .zymo-form__row {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .zymo-form__row .zymo-form__field {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .zymo-form__row .zymo-form__field {
+    width: 50%;
+  }
+}
+
+.zymo-form__field {
+  margin-bottom: 2.4rem;
+}
+
+.zymo-form__label {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+@media screen and (min-width: 750px) {
+  .zymo-form__label {
+    font-size: 1.8rem;
+  }
+}
+
+.zymo-form__label strong {
+  color: var(--color-dark-pink);
+}
+
+.zymo-form__input {
+  display: block;
+  width: 100%;
+  border-radius: 0.4rem;
+  outline: none;
+  border: 0.1rem solid var(--color-light-grey-3);
+  padding: 1rem;
+  caret-color: var(--color-black-2);
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.zymo-form__input:not(.zymo-form__input--textarea) {
+  height: 4.5rem;
+}
+
+.zymo-form__input:focus,
+.zymo-form__input:hover {
+  border-color: var(--color-black-2);
+}
+
+.zymo-form__note {
+  font-size: 1.2rem;
+  display: block;
+  margin-top: 0.8rem;
+}
+
+.zymo-form__field--has-error .zymo-form__input,
+.zymo-form__field--has-error .zymo-form__input:focus,
+.zymo-form__field--has-error .zymo-form__input:hover {
+  border-color: var(--color-invalid-red);
+  caret-color: var(--color-invalid-red);
+}
+
+.zymo-form__field--has-error .zymo-form__note {
+  color: var(--color-invalid-red);
+}

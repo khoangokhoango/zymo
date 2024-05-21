@@ -15,10 +15,14 @@ customElements.define("zymo-cards", class ZymoCards extends HTMLElement {
             <div class="zymo-card__image">
             <img src="${card.image_url}" alt="${card.title}" />
             </div>
-            <div class="zymo-card__information">
-              <h2 class="zymo-heading--4 zymo-card__heading">${card.title}</h2>
-              <p class="zymo-body-text zymo-card__description">${card.description}</p>
-              <a href="${card.url}" class="zymo-button--secondary zymo-card__cta">Learn More</a>
+            <div class="zymo-card__text">
+              <div class="zymo-card__information">
+                <h2 class="zymo-heading--4 zymo-card__heading">${card.title}</h2>
+                <p class="zymo-body-text zymo-card__description">${card.description}</p>
+              </div>
+              <div class="zymo-card__cta-wrapper">
+                <a href="${card.url}" class="zymo-button--secondary zymo-card__cta">Learn More</a>
+              </div>
             </div>
           </div>
         </article>

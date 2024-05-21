@@ -41,15 +41,31 @@ a {
   text-decoration: none;
 }
 
-.page-width {
+.zymo-page-width {
   max-width: var(--page-width);
   margin: 0 auto;
-  padding: 0 5rem;
+  padding: 0 var(--padding-container);
 }
 
-@media screen and (max-width: 750px) {
-  .page-width {
-    padding: 0 2rem;
+
+.zymo-container-overflow {
+  padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 749px) {
+  .zymo-container-overflow::-webkit-scrollbar {
+    padding-bottom: 3.2rem;
   }
 }
 
+.zymo-container-overflow::-webkit-scrollbar {
+  height: 0.5rem;
+}
+
+.zymo-container-overflow::-webkit-scrollbar-track {
+  background-color: var(--color-light-grey);
+}
+
+.zymo-container-overflow::-webkit-scrollbar-thumb {
+  background-color: var(--color-green);
+}

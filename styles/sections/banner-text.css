@@ -3,11 +3,6 @@
   background: var(--color-light-grey);
 }
 
-/* .zymo-banner-text__inner {
-  display: flex;
-  align-items: center;
-} */
-
 @media screen and (min-width: 992px) {
   .zymo-banner-text__inner {
     display: flex;

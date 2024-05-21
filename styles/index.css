@@ -4,6 +4,7 @@
 /* commons */
 @import "./commons/headings.css";
 @import "./commons/buttons.css";
+@import "./commons/form.css";
 @import "./commons/global.css";
 
 /* snippets */
@@ -13,4 +14,4 @@
 @import "./sections/hero-banner.css";
 @import "./sections/banner-text.css";
 @import "./sections/cards.css";
-@import "./sections/inquery-form.css";
+@import "./sections/contact-form.css";

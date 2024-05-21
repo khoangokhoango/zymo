@@ -5,10 +5,17 @@
 
 .zymo-cards__list {
   display: flex;
+  overflow-y: auto;
 }
 
 .zymo-cards__item {
   width: 25%;
+}
+
+@media screen and (max-width: 749px) {
+  .zymo-cards__item {
+    min-width: 28rem;
+  }
 }
 
 .zymo-cards__item:not(:last-child) {
