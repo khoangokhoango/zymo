@@ -9,7 +9,9 @@
 }
 
 html {
+  height: 100%;
   font-size: 62.5%; /* 1rem = 10px */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -19,7 +21,7 @@ body {
   overflow-y: auto;
 }
 
-img, picture, video, canvas, svg {
+img, picture, video {
   display: block;
   max-width: 100%;
 }
@@ -47,6 +49,9 @@ a {
   padding: 0 var(--padding-container);
 }
 
+.d-none {
+  display: none !important;
+}
 
 .zymo-container-overflow {
   padding-bottom: 4rem;

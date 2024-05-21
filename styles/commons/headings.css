@@ -28,6 +28,7 @@ h3, .zymo-heading--3 {
   font-family: var(--font-heading);
   font-size: 2.4rem;
   line-height: normal;
+  font-weight: var(--font-normal);
 }
 
 @media screen and (min-width: 750px){

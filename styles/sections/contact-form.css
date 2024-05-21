@@ -19,3 +19,29 @@
   display: flex;
   justify-content: center;
 }
+
+.zymo-contact-form__message {
+  margin-bottom: 1.6rem;
+  font-size: 2rem;
+  line-height: normal;
+}
+
+@media screen and (min-width: 750px) {
+  .zymo-contact-form__message {
+    font-size: 2.4rem;
+  }
+}
+
+.zymo-contact-form__message svg {
+  width: 2rem;
+  height: 2rem;
+  display: inline;
+}
+
+@media screen and (min-width: 750px) {
+  .zymo-contact-form__message svg {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+  
+}
