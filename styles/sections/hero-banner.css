@@ -20,10 +20,25 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 749px) {
+  .zymo-hero-banner__icons {
+    display: inline-flex;
+    width: 20rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .zymo-hero-banner__icon-list {
   overflow-y: auto;
   display: flex;
   gap: 2rem;
+}
+
+@media screen and (max-width: 749px) {
+  .zymo-hero-banner__icon-list {
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 750px) and (max-width: 1199px){
@@ -46,7 +61,7 @@
 
 @media screen and (max-width: 749px){
   .zymo-hero-banner__icon-item {
-    min-width: 60vw;
+    width: 100%;
   }
 }
 

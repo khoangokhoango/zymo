@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -10,7 +12,8 @@
 
 html {
   height: 100%;
-  font-size: 62.5%; /* 1rem = 10px */
+  font-size: 62.5%;
+  /* 1rem = 10px */
   scroll-behavior: smooth;
 }
 
@@ -21,20 +24,32 @@ body {
   overflow-y: auto;
 }
 
-img, picture, video {
+img,
+picture,
+video {
   display: block;
   max-width: 100%;
 }
 
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
 }
 
-#root, #__next {
+#root,
+#__next {
   isolation: isolate;
 }
 
@@ -55,6 +70,8 @@ a {
 
 .zymo-container-overflow {
   padding-bottom: 4rem;
+  /* for firefox */
+  scrollbar-color: var(--color-green) var(--color-light-grey);
 }
 
 @media screen and (max-width: 749px) {
@@ -73,4 +90,34 @@ a {
 
 .zymo-container-overflow::-webkit-scrollbar-thumb {
   background-color: var(--color-green);
+}
+
+[reveal] {
+  opacity: 0.01;
+  position: relative;
+  transform: translateY(5rem);
+  transition: all 0.4s ease-in-out;
+}
+
+[reveal][revealed] {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.spinner {
+  width: 8rem;
+  height: 8rem;
+  border: 0.5rem solid var(--color-green);
+  border-color: transparent var(--color-green) transparent var(--color-green);
+  border-radius: 50%;
+  animation: loader 1s linear infinite;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

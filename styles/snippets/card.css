@@ -10,6 +10,15 @@
 
 .zymo-card__image {
   aspect-ratio: 3 / 2;
+  position: relative;
+}
+
+.zymo-card__image .spinner {
+  position: absolute;
+  z-index: 1;
+  top: calc(50% - 4rem);
+  left: calc(50% - 4rem);
+  transform: translate(-50%, -50%);
 }
 
 .zymo-card__image img {
@@ -17,6 +26,8 @@
   height: 100%;
   object-fit: cover;
   object-position: 50% 50%;
+  position: relative;
+  z-index: 2;
 }
 
 .zymo-card__text {

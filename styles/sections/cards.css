@@ -9,16 +9,29 @@
 }
 
 .zymo-cards__item {
-  width: 25%;
+  --mr: 2rem;
+  min-width: 28rem;
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (min-width: 750px) {
   .zymo-cards__item {
-    min-width: 28rem;
+    min-width: calc(75% - var(--mr));
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .zymo-cards__item {
+    min-width: calc(30% - var(--mr));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .zymo-cards__item {
+    min-width: calc(25% - var(--mr));
   }
 }
 
 .zymo-cards__item:not(:last-child) {
-  margin-right: 2rem;
+  margin-right: var(--mr);
 }
 
