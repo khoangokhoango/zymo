@@ -1,4 +1,4 @@
-# Zymo Take-Home Assignment
+# Zymo
 
 Live demo: [https://zymo-take-home-assignment.vercel.app/](https://zymo-take-home-assignment.vercel.app/)
 
